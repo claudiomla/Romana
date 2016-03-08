@@ -25,14 +25,26 @@ namespace VistasDeVentanasPrincipales
             String CI= CITD.Text;
             String typeCI = TypeCI.SelectedItem.ToString();
 
-            //verificar en la base de datos si se encuentra la cedula del conductor
 
-            if (/* si el nombre esta en la base de datos*/ true){
-                check1 = true;
-            }else{
+            if (true/*verificar que los campos no esten vacios*/)
+            {
 
-	        }
+                //verificar en la base de datos si se encuentra la cedula del conductor
+
+                if (/* si el nombre esta en la base de datos*/ true)
+                {
+                    check1 = true;
+                }
+                else
+                {
+                    //
+                }
+
+            }
+            
         }
+
+        
 
         
     }
