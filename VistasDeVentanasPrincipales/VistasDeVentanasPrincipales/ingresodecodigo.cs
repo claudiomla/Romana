@@ -17,5 +17,19 @@ namespace VistasDeVentanasPrincipales
             InitializeComponent();
         }
 
+        private void textBox1_TextChanged(object sender, KeyEventArgs e)
+        {
+            if (e.Modifiers == Keys.Control && e.KeyCode == Keys.V)
+            {
+                // cancel the "paste" function
+                e.SuppressKeyPress = true;
+            }
+
+            if (!char.IsDigit(e.KeyChar) && (!e.Control))
+            {
+                e.Handled = true;
+            }
+
+        }
     }
 }
