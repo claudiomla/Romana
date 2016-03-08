@@ -1,0 +1,9 @@
+C:\Users\GM13\Desktop\Proyecto Romana\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\bin\Debug\VistasDeVentanasPrincipales.exe.config
+C:\Users\GM13\Desktop\Proyecto Romana\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\bin\Debug\VistasDeVentanasPrincipales.exe
+C:\Users\GM13\Desktop\Proyecto Romana\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\bin\Debug\VistasDeVentanasPrincipales.pdb
+C:\Users\GM13\Desktop\Proyecto Romana\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.csprojResolveAssemblyReference.cache
+C:\Users\GM13\Desktop\Proyecto Romana\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.Form1.resources
+C:\Users\GM13\Desktop\Proyecto Romana\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.Properties.Resources.resources
+C:\Users\GM13\Desktop\Proyecto Romana\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.csproj.GenerateResource.Cache
+C:\Users\GM13\Desktop\Proyecto Romana\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.exe
+C:\Users\GM13\Desktop\Proyecto Romana\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.pdb
