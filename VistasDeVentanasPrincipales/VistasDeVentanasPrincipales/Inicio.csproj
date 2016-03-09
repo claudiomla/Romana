@@ -55,9 +55,7 @@
     <Compile Include="EntryVehicleTD.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EntryVehicleTD.Designer.cs">
-      <DependentUpon>EntryVehicleTD.cs</DependentUpon>
-    </Compile>
+    <Compile Include="EntryVehicleTD.Designer.cs" />
     <Compile Include="PopupActivateManualEdition.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,9 +67,7 @@
     <EmbeddedResource Include="AddOperationCode.resx">
       <DependentUpon>AddOperationCode.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EntryVehicleTD.resx">
-      <DependentUpon>EntryVehicleTD.cs</DependentUpon>
-    </EmbeddedResource>
+    <EmbeddedResource Include="EntryVehicleTD.resx" />
     <EmbeddedResource Include="PopupActivateManualEdition.resx">
       <DependentUpon>PopupActivateManualEdition.cs</DependentUpon>
     </EmbeddedResource>
