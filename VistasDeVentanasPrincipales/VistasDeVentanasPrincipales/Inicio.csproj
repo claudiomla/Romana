@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddOperationCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOperationCode.Designer.cs">
+      <DependentUpon>AddOperationCode.cs</DependentUpon>
+    </Compile>
     <Compile Include="EntryVehicleTD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddOperationCode.resx">
+      <DependentUpon>AddOperationCode.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EntryVehicleTD.resx">
       <DependentUpon>EntryVehicleTD.cs</DependentUpon>
     </EmbeddedResource>
