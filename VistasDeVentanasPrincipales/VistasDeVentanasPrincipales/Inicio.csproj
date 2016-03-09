@@ -52,10 +52,18 @@
     <Compile Include="AddOperationCode.Designer.cs">
       <DependentUpon>AddOperationCode.cs</DependentUpon>
     </Compile>
+    <Compile Include="DisplaydataEweighIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplaydataEweighIN.designer.cs">
+      <DependentUpon>DisplaydataEweighIN.cs</DependentUpon>
+    </Compile>
     <Compile Include="EntryVehicleTD.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EntryVehicleTD.Designer.cs" />
+    <Compile Include="EntryVehicleTD.designer.cs">
+      <DependentUpon>EntryVehicleTD.cs</DependentUpon>
+    </Compile>
     <Compile Include="PopupActivateManualEdition.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,7 +75,12 @@
     <EmbeddedResource Include="AddOperationCode.resx">
       <DependentUpon>AddOperationCode.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EntryVehicleTD.resx" />
+    <EmbeddedResource Include="DisplaydataEweighIN.resx">
+      <DependentUpon>DisplaydataEweighIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntryVehicleTD.resx">
+      <DependentUpon>EntryVehicleTD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PopupActivateManualEdition.resx">
       <DependentUpon>PopupActivateManualEdition.cs</DependentUpon>
     </EmbeddedResource>
