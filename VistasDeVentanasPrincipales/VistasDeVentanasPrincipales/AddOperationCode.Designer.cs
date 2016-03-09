@@ -62,7 +62,7 @@
             // 
             this.TextAddOrderCode.AutoSize = true;
             this.TextAddOrderCode.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TextAddOrderCode.Location = new System.Drawing.Point(63, 26);
+            this.TextAddOrderCode.Location = new System.Drawing.Point(63, 25);
             this.TextAddOrderCode.Name = "TextAddOrderCode";
             this.TextAddOrderCode.Size = new System.Drawing.Size(197, 18);
             this.TextAddOrderCode.TabIndex = 2;
@@ -97,7 +97,7 @@
             // 
             this.BackButtonAOC.Image = ((System.Drawing.Image)(resources.GetObject("BackButtonAOC.Image")));
             this.BackButtonAOC.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BackButtonAOC.Location = new System.Drawing.Point(49, 198);
+            this.BackButtonAOC.Location = new System.Drawing.Point(45, 198);
             this.BackButtonAOC.Name = "BackButtonAOC";
             this.BackButtonAOC.Size = new System.Drawing.Size(92, 23);
             this.BackButtonAOC.TabIndex = 5;

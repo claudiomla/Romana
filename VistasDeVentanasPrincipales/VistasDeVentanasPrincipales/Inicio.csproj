@@ -58,6 +58,12 @@
     <Compile Include="EntryVehicleTD.Designer.cs">
       <DependentUpon>EntryVehicleTD.cs</DependentUpon>
     </Compile>
+    <Compile Include="PopupActivateManualEdition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopupActivateManualEdition.Designer.cs">
+      <DependentUpon>PopupActivateManualEdition.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddOperationCode.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EntryVehicleTD.resx">
       <DependentUpon>EntryVehicleTD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopupActivateManualEdition.resx">
+      <DependentUpon>PopupActivateManualEdition.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

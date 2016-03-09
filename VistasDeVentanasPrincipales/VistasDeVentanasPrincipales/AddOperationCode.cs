@@ -17,6 +17,8 @@ namespace VistasDeVentanasPrincipales
             InitializeComponent();
         }
 
+        // Validar que el cuadro de texto RelevantCode solo permita el ingreso de numeros enteros
+        // y habilitacion de la tecla Backspace.
         private void RelevantCode_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsDigit(e.KeyChar) && (e.KeyChar != (char)Keys.Back))
@@ -25,6 +27,7 @@ namespace VistasDeVentanasPrincipales
             }
         }
 
+        // Habilitacion de las teclas de movimiento arriba,abajo,izquierda,derecha y borrar.
         private void RelevantCode_KeyDown(object sender, KeyEventArgs e)
         {
             switch (e.KeyCode)
