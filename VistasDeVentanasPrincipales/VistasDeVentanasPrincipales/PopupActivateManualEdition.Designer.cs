@@ -109,6 +109,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(433, 136);
             this.Controls.Add(this.TextPopup);
             this.Controls.Add(this.UserPassword);
@@ -117,6 +118,7 @@
             this.Controls.Add(this.TextUser);
             this.Controls.Add(this.NextButton);
             this.Controls.Add(this.CancelButton);
+            this.MaximizeBox = false;
             this.Name = "PopupActivateManualEdition";
             this.Text = "PopupActivateManualEdition";
             this.ResumeLayout(false);

@@ -21,9 +21,9 @@ namespace VistasDeVentanasPrincipales
         // y habilitacion de la tecla Backspace.
         private void RelevantCode_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsDigit(e.KeyChar) && (e.KeyChar != (char)Keys.Back))
+            if (!char.IsDigit(e.KeyChar) && (e.KeyChar != (char)Keys.Back)) // si la tecla presionada no es de digitos o la tecla backspace
             {
-                e.Handled = true;
+                e.Handled = true; // se ignora la tecla
             }
         }
 
@@ -37,10 +37,19 @@ namespace VistasDeVentanasPrincipales
                 case Keys.Left:
                 case Keys.Right:
                 case Keys.Delete:
-                    e.SuppressKeyPress = false;
+                    e.SuppressKeyPress = false; // el resto de las teclas seran ignoradas
                     return;
                 default:
                     break;
+            }
+        }
+        // validar que el usuario no haya dejado algun campo de los datos del codigo vacios.
+        private void DetailsButton_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(RelevantCode.Text) || (DocType.SelectedItem == null))
+            {
+                // Indicarle al usuario que no lleno algunos de los campos de datos de codigo
+                MessageBox.Show("Inserte el resto de los datos","Error en codigo"); //mostrar ventana de error
             }
         }
     }

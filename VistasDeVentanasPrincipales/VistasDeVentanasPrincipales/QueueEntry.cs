@@ -10,21 +10,19 @@ using System.Windows.Forms;
 
 namespace VistasDeVentanasPrincipales
 {
-    public partial class PopupActivateManualEdition : Form
+    public partial class QueueEntry : Form
     {
-        public PopupActivateManualEdition()
+        public QueueEntry()
         {
             InitializeComponent();
         }
 
-
-        // El Boton cancelar cerrara la ventana
-        private void CancelButton_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            DisplaydataEweighIN.checke = false;
-            Close();
-            
-           
+            this.Close();
         }
+
+
+
     }
 }

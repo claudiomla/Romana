@@ -10,12 +10,39 @@ using System.Windows.Forms;
 
 namespace VistasDeVentanasPrincipales
 {
-    public partial class DisplayDataEweighIN : Form
+    public partial class DisplaydataEweighIN : Form
     {
-        public DisplayDataEweighIN()
+        public static Boolean checke;
+        public DisplaydataEweighIN()
         {
             InitializeComponent();
         }
 
+        private void Hour_TextChanged(object sender, EventArgs e)
+        { 
+
+
+        }
+
+
+
+        public void un() { checkBoxMANUAL.Checked = false; }
+
+        private void checkBoxMANUAL_CheckedChanged(object sender, EventArgs e)
+        {
+            
+
+            if (checkBoxMANUAL.Checked == true)
+            {
+                PopupActivateManualEdition popup = new PopupActivateManualEdition();
+                popup.ShowDialog();
+            }
+
+            if (!checke)
+            {
+                checkBoxMANUAL.Checked = false;
+            }         
+\
+        }
     }
 }

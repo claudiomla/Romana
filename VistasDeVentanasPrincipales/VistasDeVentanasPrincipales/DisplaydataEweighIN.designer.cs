@@ -1,6 +1,6 @@
 ﻿namespace VistasDeVentanasPrincipales
 {
-    partial class DisplayDataEweighIN
+    partial class DisplaydataEweighIN
     {
         /// <summary>
         /// Required designer variable.
@@ -20,6 +20,8 @@
             base.Dispose(disposing);
         }
 
+
+        
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -75,7 +77,7 @@
             this.buttonnext.Name = "buttonnext";
             this.buttonnext.Size = new System.Drawing.Size(91, 43);
             this.buttonnext.TabIndex = 3;
-            this.buttonnext.Text = "siguiente";
+            this.buttonnext.Text = "pesar";
             this.buttonnext.UseVisualStyleBackColor = true;
             // 
             // textticket
@@ -277,6 +279,7 @@
             this.Hour.ReadOnly = true;
             this.Hour.Size = new System.Drawing.Size(157, 20);
             this.Hour.TabIndex = 25;
+            this.Hour.TextChanged += new System.EventHandler(this.Hour_TextChanged);
             // 
             // theorical
             // 
@@ -314,11 +317,13 @@
             this.checkBoxMANUAL.TabIndex = 29;
             this.checkBoxMANUAL.Text = "Modo Manual";
             this.checkBoxMANUAL.UseVisualStyleBackColor = true;
+            this.checkBoxMANUAL.CheckedChanged += new System.EventHandler(this.checkBoxMANUAL_CheckedChanged);
             // 
             // DisplayDataEweighIN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(676, 552);
             this.Controls.Add(this.checkBoxMANUAL);
             this.Controls.Add(this.textdealings);
@@ -348,6 +353,7 @@
             this.Controls.Add(this.textticket);
             this.Controls.Add(this.buttonnext);
             this.Controls.Add(this.buttonback);
+            this.MaximizeBox = false;
             this.Name = "DisplayDataEweighIN";
             this.Text = "DisplaydataEweighIN";
             this.ResumeLayout(false);

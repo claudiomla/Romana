@@ -52,6 +52,12 @@
     <Compile Include="AddOperationCode.Designer.cs">
       <DependentUpon>AddOperationCode.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataEdition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataEdition.Designer.cs">
+      <DependentUpon>DataEdition.cs</DependentUpon>
+    </Compile>
     <Compile Include="DisplaydataEweighIN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,8 +78,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueueEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueueEntry.Designer.cs">
+      <DependentUpon>QueueEntry.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddOperationCode.resx">
       <DependentUpon>AddOperationCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataEdition.resx">
+      <DependentUpon>DataEdition.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DisplaydataEweighIN.resx">
       <DependentUpon>DisplaydataEweighIN.cs</DependentUpon>
@@ -93,6 +108,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="QueueEntry.resx">
+      <DependentUpon>QueueEntry.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

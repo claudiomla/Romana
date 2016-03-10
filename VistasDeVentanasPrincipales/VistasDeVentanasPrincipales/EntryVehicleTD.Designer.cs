@@ -139,8 +139,10 @@
             // 
             // checkTD
             // 
+            this.checkTD.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.checkTD.Image = ((System.Drawing.Image)(resources.GetObject("checkTD.Image")));
             this.checkTD.Location = new System.Drawing.Point(335, 46);
+            this.checkTD.Margin = new System.Windows.Forms.Padding(0);
             this.checkTD.Name = "checkTD";
             this.checkTD.Size = new System.Drawing.Size(26, 27);
             this.checkTD.TabIndex = 9;
