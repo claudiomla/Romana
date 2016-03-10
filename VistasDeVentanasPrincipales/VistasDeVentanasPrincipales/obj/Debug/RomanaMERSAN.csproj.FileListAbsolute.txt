@@ -1,0 +1,3 @@
+C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\bin\Debug\VistasDeVentanasPrincipales.exe.config
+C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.exe
+C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.pdb
