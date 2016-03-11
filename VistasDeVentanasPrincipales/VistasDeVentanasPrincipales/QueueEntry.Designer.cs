@@ -30,15 +30,6 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Ticket = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NDocument = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Company = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Plataform = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DateIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HourIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CI = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NameDriver = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Plate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -48,6 +39,15 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.Ticket = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NDocument = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Company = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Product = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DateArrival = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HourArrival = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CI = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NameDriver = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Plate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
@@ -70,22 +70,23 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 87.00696F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 65F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(946, 635);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(972, 635);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Ticket,
             this.NDocument,
             this.Company,
-            this.Plataform,
-            this.DateIn,
-            this.HourIn,
+            this.Product,
+            this.DateArrival,
+            this.HourArrival,
             this.CI,
             this.NameDriver,
             this.Plate});
@@ -94,72 +95,8 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dataGridView1.Size = new System.Drawing.Size(940, 489);
+            this.dataGridView1.Size = new System.Drawing.Size(966, 489);
             this.dataGridView1.TabIndex = 1;
-            // 
-            // Ticket
-            // 
-            this.Ticket.Frozen = true;
-            this.Ticket.HeaderText = "Nº Ticket";
-            this.Ticket.Name = "Ticket";
-            this.Ticket.ReadOnly = true;
-            // 
-            // NDocument
-            // 
-            this.NDocument.Frozen = true;
-            this.NDocument.HeaderText = "Nº Documento";
-            this.NDocument.Name = "NDocument";
-            this.NDocument.ReadOnly = true;
-            this.NDocument.Width = 120;
-            // 
-            // Company
-            // 
-            this.Company.Frozen = true;
-            this.Company.HeaderText = "Empresa";
-            this.Company.Name = "Company";
-            this.Company.ReadOnly = true;
-            // 
-            // Plataform
-            // 
-            this.Plataform.Frozen = true;
-            this.Plataform.HeaderText = "Producto";
-            this.Plataform.Name = "Plataform";
-            this.Plataform.ReadOnly = true;
-            // 
-            // DateIn
-            // 
-            this.DateIn.Frozen = true;
-            this.DateIn.HeaderText = "Fecha de llegada";
-            this.DateIn.Name = "DateIn";
-            this.DateIn.ReadOnly = true;
-            // 
-            // HourIn
-            // 
-            this.HourIn.Frozen = true;
-            this.HourIn.HeaderText = "Hora de llegada";
-            this.HourIn.Name = "HourIn";
-            this.HourIn.ReadOnly = true;
-            // 
-            // CI
-            // 
-            this.CI.Frozen = true;
-            this.CI.HeaderText = "Cedula";
-            this.CI.Name = "CI";
-            this.CI.ReadOnly = true;
-            // 
-            // NameDriver
-            // 
-            this.NameDriver.Frozen = true;
-            this.NameDriver.HeaderText = "Conductor";
-            this.NameDriver.Name = "NameDriver";
-            this.NameDriver.ReadOnly = true;
-            // 
-            // Plate
-            // 
-            this.Plate.Frozen = true;
-            this.Plate.HeaderText = "Placa";
-            this.Plate.Name = "Plate";
-            this.Plate.ReadOnly = true;
             // 
             // tableLayoutPanel2
             // 
@@ -173,7 +110,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(940, 68);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(966, 68);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // label1
@@ -183,7 +120,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(822, 68);
+            this.label1.Size = new System.Drawing.Size(845, 68);
             this.label1.TabIndex = 0;
             this.label1.Text = "Vehiculos en Espera de Entrada";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -193,10 +130,10 @@
             this.groupBox2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.groupBox2.Controls.Add(this.b);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox2.Location = new System.Drawing.Point(831, 40);
+            this.groupBox2.Location = new System.Drawing.Point(854, 40);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBox2.Size = new System.Drawing.Size(106, 25);
+            this.groupBox2.Size = new System.Drawing.Size(109, 25);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
             // 
@@ -205,7 +142,7 @@
             this.b.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.b.Location = new System.Drawing.Point(0, 1);
             this.b.Name = "b";
-            this.b.Size = new System.Drawing.Size(106, 24);
+            this.b.Size = new System.Drawing.Size(109, 24);
             this.b.TabIndex = 2;
             this.b.Text = "Actualizar";
             this.b.UseVisualStyleBackColor = true;
@@ -220,7 +157,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(3, 572);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(940, 60);
+            this.groupBox1.Size = new System.Drawing.Size(966, 60);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -265,12 +202,66 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // Ticket
+            // 
+            this.Ticket.HeaderText = "Nº Ticket";
+            this.Ticket.Name = "Ticket";
+            this.Ticket.ReadOnly = true;
+            // 
+            // NDocument
+            // 
+            this.NDocument.HeaderText = "Nº Document";
+            this.NDocument.Name = "NDocument";
+            this.NDocument.ReadOnly = true;
+            // 
+            // Company
+            // 
+            this.Company.HeaderText = "Empresa";
+            this.Company.Name = "Company";
+            this.Company.ReadOnly = true;
+            // 
+            // Product
+            // 
+            this.Product.HeaderText = "Producto";
+            this.Product.Name = "Product";
+            this.Product.ReadOnly = true;
+            // 
+            // DateArrival
+            // 
+            this.DateArrival.HeaderText = "Fecha de Llegada";
+            this.DateArrival.Name = "DateArrival";
+            this.DateArrival.ReadOnly = true;
+            // 
+            // HourArrival
+            // 
+            this.HourArrival.HeaderText = "Hora de Llegada";
+            this.HourArrival.Name = "HourArrival";
+            this.HourArrival.ReadOnly = true;
+            // 
+            // CI
+            // 
+            this.CI.HeaderText = "Cedula";
+            this.CI.Name = "CI";
+            this.CI.ReadOnly = true;
+            // 
+            // NameDriver
+            // 
+            this.NameDriver.HeaderText = "Conductor";
+            this.NameDriver.Name = "NameDriver";
+            this.NameDriver.ReadOnly = true;
+            // 
+            // Plate
+            // 
+            this.Plate.HeaderText = "Placa";
+            this.Plate.Name = "Plate";
+            this.Plate.ReadOnly = true;
+            // 
             // QueueEntry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(946, 635);
+            this.ClientSize = new System.Drawing.Size(972, 635);
             this.Controls.Add(this.tableLayoutPanel1);
             this.MaximizeBox = false;
             this.Name = "QueueEntry";
@@ -303,9 +294,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Ticket;
         private System.Windows.Forms.DataGridViewTextBoxColumn NDocument;
         private System.Windows.Forms.DataGridViewTextBoxColumn Company;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Plataform;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DateIn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn HourIn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Product;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DateArrival;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HourArrival;
         private System.Windows.Forms.DataGridViewTextBoxColumn CI;
         private System.Windows.Forms.DataGridViewTextBoxColumn NameDriver;
         private System.Windows.Forms.DataGridViewTextBoxColumn Plate;

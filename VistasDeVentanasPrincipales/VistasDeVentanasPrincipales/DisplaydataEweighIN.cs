@@ -42,7 +42,7 @@ namespace VistasDeVentanasPrincipales
             {
                 checkBoxMANUAL.Checked = false;
             }         
-\
+
         }
     }
 }

@@ -84,6 +84,12 @@
     <Compile Include="QueueEntry.Designer.cs">
       <DependentUpon>QueueEntry.cs</DependentUpon>
     </Compile>
+    <Compile Include="QueueOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueueOut.Designer.cs">
+      <DependentUpon>QueueOut.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddOperationCode.resx">
       <DependentUpon>AddOperationCode.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,6 +116,9 @@
     </Compile>
     <EmbeddedResource Include="QueueEntry.resx">
       <DependentUpon>QueueEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueueOut.resx">
+      <DependentUpon>QueueOut.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
