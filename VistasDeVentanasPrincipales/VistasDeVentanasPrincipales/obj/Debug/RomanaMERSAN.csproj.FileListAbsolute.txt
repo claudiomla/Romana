@@ -13,3 +13,8 @@ C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDe
 C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\RomanaMERSAN.csproj.GenerateResource.Cache
 C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\bin\Debug\VistasDeVentanasPrincipales.exe
 C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\bin\Debug\VistasDeVentanasPrincipales.pdb
+C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.OutVehicleTD.resources
+C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\bin\Debug\es-VE\VistasDeVentanasPrincipales.resources.dll
+C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.OutVehicleTD.es-VE.resources
+C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\es-VE\VistasDeVentanasPrincipales.resources.dll
+C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.OutService.resources

@@ -10,12 +10,15 @@ using System.Windows.Forms;
 
 namespace VistasDeVentanasPrincipales
 {
-    public partial class OutVehicleTD : Form
+    public partial class EntryService : Form
     {
-        public OutVehicleTD()
+        public EntryService()
         {
             InitializeComponent();
         }
- 
+
+   
+
+       
     }
 }

@@ -16,7 +16,11 @@ namespace VistasDeVentanasPrincipales
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
             Application.Run(new QueueOut());
+            Application.Run(new OutVehicleTD());
+            
+
         }
     }
 }

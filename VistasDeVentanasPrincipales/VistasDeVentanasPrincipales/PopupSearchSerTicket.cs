@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace VistasDeVentanasPrincipales
 {
-    public partial class OutVehicleTD : Form
+    public partial class PopupSearchSerTicket : Form
     {
-        public OutVehicleTD()
+        public PopupSearchSerTicket()
         {
             InitializeComponent();
         }
- 
+
+        private void CloseButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

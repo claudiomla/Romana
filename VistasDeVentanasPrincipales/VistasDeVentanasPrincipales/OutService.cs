@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace VistasDeVentanasPrincipales
 {
-    public partial class OutVehicleTD : Form
+    public partial class OutService : Form
     {
-        public OutVehicleTD()
+        public OutService()
         {
             InitializeComponent();
         }
- 
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

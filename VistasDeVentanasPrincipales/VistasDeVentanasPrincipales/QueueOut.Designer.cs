@@ -34,10 +34,6 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.b = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.Ticket = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NDocument = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DateIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,6 +41,10 @@
             this.WeigthIn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NameDriver = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Plate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -66,7 +66,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 480F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1030, 600);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1030, 613);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -142,47 +142,6 @@
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 545);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1024, 52);
-            this.panel1.TabIndex = 5;
-            // 
-            // button1
-            // 
-            this.button1.AutoSize = true;
-            this.button1.Location = new System.Drawing.Point(86, 8);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 37);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Cancelar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.AutoSize = true;
-            this.button2.Location = new System.Drawing.Point(452, 8);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(101, 37);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Editar Datos";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.AutoSize = true;
-            this.button3.Location = new System.Drawing.Point(810, 8);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(101, 37);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Ingresar Vehículo";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // Ticket
             // 
             this.Ticket.HeaderText = "Nº Ticket";
@@ -225,12 +184,56 @@
             this.Plate.Name = "Plate";
             this.Plate.ReadOnly = true;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 545);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1024, 65);
+            this.panel1.TabIndex = 5;
+            // 
+            // button1
+            // 
+            this.button1.AutoSize = true;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(77, 8);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(101, 50);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Cancelar";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.AutoSize = true;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(443, 8);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(117, 50);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Editar Datos";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.AutoSize = true;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(801, 8);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(143, 50);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Ingresar Vehículo";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // QueueOut
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1030, 600);
+            this.ClientSize = new System.Drawing.Size(1030, 613);
             this.Controls.Add(this.tableLayoutPanel1);
             this.MaximizeBox = false;
             this.Name = "QueueOut";

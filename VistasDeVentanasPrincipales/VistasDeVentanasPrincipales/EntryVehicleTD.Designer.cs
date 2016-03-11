@@ -191,7 +191,7 @@
             // 
             // notice1
             // 
-            this.notice1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.notice1.BackColor = System.Drawing.SystemColors.Control;
             this.notice1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.notice1.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.notice1.ForeColor = System.Drawing.Color.Red;
@@ -206,7 +206,7 @@
             // 
             // notice2
             // 
-            this.notice2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.notice2.BackColor = System.Drawing.SystemColors.Control;
             this.notice2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.notice2.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.notice2.ForeColor = System.Drawing.Color.Red;
@@ -223,7 +223,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(451, 336);
             this.Controls.Add(this.notice2);
             this.Controls.Add(this.notice1);

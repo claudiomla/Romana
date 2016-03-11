@@ -70,11 +70,35 @@
     <Compile Include="EntryVehicleTD.designer.cs">
       <DependentUpon>EntryVehicleTD.cs</DependentUpon>
     </Compile>
+    <Compile Include="InputService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputService.Designer.cs">
+      <DependentUpon>InputService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutService.Designer.cs">
+      <DependentUpon>OutService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutVehicleTD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutVehicleTD.Designer.cs">
+      <DependentUpon>OutVehicleTD.cs</DependentUpon>
+    </Compile>
     <Compile Include="PopupActivateManualEdition.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PopupActivateManualEdition.Designer.cs">
       <DependentUpon>PopupActivateManualEdition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopupSearchSerTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopupSearchSerTicket.Designer.cs">
+      <DependentUpon>PopupSearchSerTicket.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,6 +114,12 @@
     <Compile Include="QueueOut.Designer.cs">
       <DependentUpon>QueueOut.cs</DependentUpon>
     </Compile>
+    <Compile Include="ServiceCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceCode.Designer.cs">
+      <DependentUpon>ServiceCode.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddOperationCode.resx">
       <DependentUpon>AddOperationCode.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,8 +132,23 @@
     <EmbeddedResource Include="EntryVehicleTD.resx">
       <DependentUpon>EntryVehicleTD.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="InputService.resx">
+      <DependentUpon>InputService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutService.resx">
+      <DependentUpon>OutService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutVehicleTD.es-VE.resx">
+      <DependentUpon>OutVehicleTD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutVehicleTD.resx">
+      <DependentUpon>OutVehicleTD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PopupActivateManualEdition.resx">
       <DependentUpon>PopupActivateManualEdition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopupSearchSerTicket.resx">
+      <DependentUpon>PopupSearchSerTicket.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -119,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="QueueOut.resx">
       <DependentUpon>QueueOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceCode.resx">
+      <DependentUpon>ServiceCode.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
