@@ -46,109 +46,115 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddOperationCode.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddOperationCode.Designer.cs">
-      <DependentUpon>AddOperationCode.cs</DependentUpon>
-    </Compile>
     <Compile Include="DataEdition.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DataEdition.Designer.cs">
       <DependentUpon>DataEdition.cs</DependentUpon>
     </Compile>
-    <Compile Include="DisplaydataEweighIN.cs">
+    <Compile Include="EMWeight.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DisplaydataEweighIN.designer.cs">
-      <DependentUpon>DisplaydataEweighIN.cs</DependentUpon>
+    <Compile Include="EMWeight.designer.cs">
+      <DependentUpon>EMWeight.cs</DependentUpon>
     </Compile>
-    <Compile Include="EntryVehicleTD.cs">
+    <Compile Include="EMRegistry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EntryVehicleTD.designer.cs">
-      <DependentUpon>EntryVehicleTD.cs</DependentUpon>
+    <Compile Include="EMRegistry.designer.cs">
+      <DependentUpon>EMRegistry.cs</DependentUpon>
     </Compile>
-    <Compile Include="InputService.cs">
+    <Compile Include="TicketReport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InputService.Designer.cs">
-      <DependentUpon>InputService.cs</DependentUpon>
+    <Compile Include="TicketReport.Designer.cs">
+      <DependentUpon>TicketReport.cs</DependentUpon>
     </Compile>
-    <Compile Include="OutService.cs">
+    <Compile Include="SMNewService.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OutService.Designer.cs">
-      <DependentUpon>OutService.cs</DependentUpon>
+    <Compile Include="SMNewService.Designer.cs">
+      <DependentUpon>SMNewService.cs</DependentUpon>
     </Compile>
-    <Compile Include="OutVehicleTD.cs">
+    <Compile Include="SMOldService.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OutVehicleTD.Designer.cs">
-      <DependentUpon>OutVehicleTD.cs</DependentUpon>
+    <Compile Include="SMOldService.Designer.cs">
+      <DependentUpon>SMOldService.cs</DependentUpon>
     </Compile>
-    <Compile Include="PopupActivateManualEdition.cs">
+    <Compile Include="OMWeight.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PopupActivateManualEdition.Designer.cs">
-      <DependentUpon>PopupActivateManualEdition.cs</DependentUpon>
+    <Compile Include="OMWeight.Designer.cs">
+      <DependentUpon>OMWeight.cs</DependentUpon>
     </Compile>
-    <Compile Include="PopupSearchSerTicket.cs">
+    <Compile Include="PopupAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PopupSearchSerTicket.Designer.cs">
-      <DependentUpon>PopupSearchSerTicket.cs</DependentUpon>
+    <Compile Include="PopupAdmin.Designer.cs">
+      <DependentUpon>PopupAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopupTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopupTicket.Designer.cs">
+      <DependentUpon>PopupTicket.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QueueEntry.cs">
+    <Compile Include="EMQueue.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QueueEntry.Designer.cs">
-      <DependentUpon>QueueEntry.cs</DependentUpon>
+    <Compile Include="EMQueue.Designer.cs">
+      <DependentUpon>EMQueue.cs</DependentUpon>
     </Compile>
-    <Compile Include="QueueOut.cs">
+    <Compile Include="OMQueue.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QueueOut.Designer.cs">
-      <DependentUpon>QueueOut.cs</DependentUpon>
+    <Compile Include="OMQueue.Designer.cs">
+      <DependentUpon>OMQueue.cs</DependentUpon>
     </Compile>
-    <Compile Include="ServiceCode.cs">
+    <Compile Include="EMOpCode.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ServiceCode.Designer.cs">
-      <DependentUpon>ServiceCode.cs</DependentUpon>
+    <Compile Include="EMOpCode.Designer.cs">
+      <DependentUpon>EMOpCode.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddOperationCode.resx">
-      <DependentUpon>AddOperationCode.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="SMCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMCode.Designer.cs">
+      <DependentUpon>SMCode.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DataEdition.resx">
       <DependentUpon>DataEdition.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DisplaydataEweighIN.resx">
-      <DependentUpon>DisplaydataEweighIN.cs</DependentUpon>
+    <EmbeddedResource Include="EMWeight.resx">
+      <DependentUpon>EMWeight.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EntryVehicleTD.resx">
-      <DependentUpon>EntryVehicleTD.cs</DependentUpon>
+    <EmbeddedResource Include="EMRegistry.resx">
+      <DependentUpon>EMRegistry.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InputService.resx">
-      <DependentUpon>InputService.cs</DependentUpon>
+    <EmbeddedResource Include="TicketReport.resx">
+      <DependentUpon>TicketReport.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OutService.resx">
-      <DependentUpon>OutService.cs</DependentUpon>
+    <EmbeddedResource Include="SMNewService.resx">
+      <DependentUpon>SMNewService.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OutVehicleTD.es-VE.resx">
-      <DependentUpon>OutVehicleTD.cs</DependentUpon>
+    <EmbeddedResource Include="SMOldService.resx">
+      <DependentUpon>SMOldService.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OutVehicleTD.resx">
-      <DependentUpon>OutVehicleTD.cs</DependentUpon>
+    <EmbeddedResource Include="OMWeight.es-VE.resx">
+      <DependentUpon>OMWeight.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PopupActivateManualEdition.resx">
-      <DependentUpon>PopupActivateManualEdition.cs</DependentUpon>
+    <EmbeddedResource Include="OMWeight.resx">
+      <DependentUpon>OMWeight.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PopupSearchSerTicket.resx">
-      <DependentUpon>PopupSearchSerTicket.cs</DependentUpon>
+    <EmbeddedResource Include="PopupAdmin.resx">
+      <DependentUpon>PopupAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopupTicket.resx">
+      <DependentUpon>PopupTicket.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -158,15 +164,19 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="QueueEntry.resx">
-      <DependentUpon>QueueEntry.cs</DependentUpon>
+    <EmbeddedResource Include="EMQueue.resx">
+      <DependentUpon>EMQueue.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QueueOut.resx">
-      <DependentUpon>QueueOut.cs</DependentUpon>
+    <EmbeddedResource Include="OMQueue.resx">
+      <DependentUpon>OMQueue.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ServiceCode.resx">
-      <DependentUpon>ServiceCode.cs</DependentUpon>
+    <EmbeddedResource Include="EMOpCode.resx">
+      <DependentUpon>EMOpCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMCode.resx">
+      <DependentUpon>SMCode.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -180,6 +190,28 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Field_Lookup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

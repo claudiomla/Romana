@@ -75,7 +75,6 @@ namespace VistasDeVentanasPrincipales
 
         private void Modify1_Click(object sender, EventArgs e)
         {
-
             if ((!(string.IsNullOrEmpty(textBoxcode.Text))) && !(TypeDocument.SelectedItem == null))//verificar que el tipo de documento y el codigo no esten vacios
             {
                 if (!check)
@@ -87,7 +86,7 @@ namespace VistasDeVentanasPrincipales
 
             }
             else {
-                MessageBox.Show("\t      Verifique: \n\n Ningun campo ,tipo de documento o Codigo pueden estar vacio.");
+                MessageBox.Show("Ningun campo ,tipo de documento o Codigo, puede estar vacio.", "Verifique:");
             }
         }
 
@@ -108,7 +107,7 @@ namespace VistasDeVentanasPrincipales
             else
             {
 
-                MessageBox.Show("\t      Verifique: \n\n Ningun campo CI o Nombre esten vacios.");
+                MessageBox.Show("Ningun campo, CI o Nombre, puede estar vacio.", "Verifique:");
 
             }
         }
@@ -130,9 +129,14 @@ namespace VistasDeVentanasPrincipales
             else
             {
 
-                MessageBox.Show("\t      Verifique: \n\n Ningun campo placa o modelo esten vacios.");
+                MessageBox.Show("Ningun campo, Placa o Modelo del Vehiculo, puede estar vacio.","Verifique:");
 
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
      
