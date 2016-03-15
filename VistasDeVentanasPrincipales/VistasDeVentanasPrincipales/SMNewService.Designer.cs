@@ -320,16 +320,18 @@
             // 
             // Back
             // 
+            this.Back.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Back.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Back.Location = new System.Drawing.Point(93, 7);
             this.Back.Name = "Back";
             this.Back.Size = new System.Drawing.Size(117, 37);
             this.Back.TabIndex = 0;
-            this.Back.Text = "atras";
+            this.Back.Text = "Volver";
             this.Back.UseVisualStyleBackColor = true;
             // 
             // Register
             // 
+            this.Register.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Register.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Register.Location = new System.Drawing.Point(309, 7);
             this.Register.Name = "Register";
@@ -339,7 +341,7 @@
             this.Register.UseVisualStyleBackColor = true;
             this.Register.Click += new System.EventHandler(this.Register_Click);
             // 
-            // InputService
+            // SMNewService
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -347,7 +349,8 @@
             this.ClientSize = new System.Drawing.Size(535, 518);
             this.Controls.Add(this.tableLayoutPanel1);
             this.MaximizeBox = false;
-            this.Name = "InputService";
+            this.Name = "SMNewService";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "InputService";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

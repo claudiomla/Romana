@@ -340,12 +340,14 @@
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = true;

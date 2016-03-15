@@ -46,6 +46,10 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.checkBoxMANUAL = new System.Windows.Forms.CheckBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -58,18 +62,14 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -272,6 +272,45 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Pasaje:";
             // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.panel5.Controls.Add(this.textBox10);
+            this.panel5.Controls.Add(this.label12);
+            this.panel5.Controls.Add(this.label13);
+            this.panel5.Location = new System.Drawing.Point(551, 23);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(253, 73);
+            this.panel5.TabIndex = 11;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
+            this.textBox10.Location = new System.Drawing.Point(77, 16);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(166, 44);
+            this.textBox10.TabIndex = 7;
+            // 
+            // label12
+            // 
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.label12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label12.Location = new System.Drawing.Point(1, 32);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(96, 34);
+            this.label12.TabIndex = 6;
+            this.label12.Text = "Neto";
+            // 
+            // label13
+            // 
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.label13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label13.Location = new System.Drawing.Point(2, 7);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(69, 34);
+            this.label13.TabIndex = 4;
+            this.label13.Text = "Peso";
+            // 
             // checkBoxMANUAL
             // 
             this.checkBoxMANUAL.AutoSize = true;
@@ -373,6 +412,7 @@
             // 
             // button5
             // 
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(499, 6);
             this.button5.Name = "button5";
@@ -383,61 +423,24 @@
             // 
             // button4
             // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(169, 6);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(96, 37);
             this.button4.TabIndex = 0;
-            this.button4.Text = "Cerrar";
+            this.button4.Text = "Volver";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.panel5.Controls.Add(this.textBox10);
-            this.panel5.Controls.Add(this.label12);
-            this.panel5.Controls.Add(this.label13);
-            this.panel5.Location = new System.Drawing.Point(551, 23);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(253, 73);
-            this.panel5.TabIndex = 11;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.textBox10.Location = new System.Drawing.Point(77, 16);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(166, 44);
-            this.textBox10.TabIndex = 7;
-            // 
-            // label12
-            // 
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.label12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label12.Location = new System.Drawing.Point(1, 32);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(96, 34);
-            this.label12.TabIndex = 6;
-            this.label12.Text = "Neto";
-            // 
-            // label13
-            // 
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.label13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label13.Location = new System.Drawing.Point(2, 7);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(69, 34);
-            this.label13.TabIndex = 4;
-            this.label13.Text = "Peso";
-            // 
-            // OutService
+            // SMOldService
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(821, 519);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "OutService";
+            this.Name = "SMOldService";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OutService";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
@@ -447,13 +450,13 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel4.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             this.ResumeLayout(false);
 
         }

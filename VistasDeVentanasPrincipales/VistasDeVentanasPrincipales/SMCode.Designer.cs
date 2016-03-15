@@ -73,11 +73,12 @@
             // 
             // CheckTicketButton
             // 
-            this.CheckTicketButton.Location = new System.Drawing.Point(331, 39);
+            this.CheckTicketButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CheckTicketButton.Image = global::VistasDeVentanasPrincipales.Properties.Resources.Field_Lookup;
+            this.CheckTicketButton.Location = new System.Drawing.Point(330, 38);
             this.CheckTicketButton.Name = "CheckTicketButton";
-            this.CheckTicketButton.Size = new System.Drawing.Size(60, 27);
+            this.CheckTicketButton.Size = new System.Drawing.Size(30, 27);
             this.CheckTicketButton.TabIndex = 11;
-            this.CheckTicketButton.Text = "lupa";
             this.CheckTicketButton.UseVisualStyleBackColor = true;
             this.CheckTicketButton.Click += new System.EventHandler(this.CheckTicketButton_Click);
             // 
@@ -128,15 +129,17 @@
             // 
             // CheckButton
             // 
+            this.CheckButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CheckButton.Location = new System.Drawing.Point(353, 22);
             this.CheckButton.Name = "CheckButton";
             this.CheckButton.Size = new System.Drawing.Size(107, 30);
             this.CheckButton.TabIndex = 10;
-            this.CheckButton.Text = "Comprobar";
+            this.CheckButton.Text = "Verificar";
             this.CheckButton.UseVisualStyleBackColor = true;
             // 
             // CloseButton
             // 
+            this.CloseButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CloseButton.Location = new System.Drawing.Point(74, 22);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(113, 30);
@@ -147,6 +150,7 @@
             // 
             // NewButton
             // 
+            this.NewButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NewButton.Location = new System.Drawing.Point(217, 22);
             this.NewButton.Name = "NewButton";
             this.NewButton.Size = new System.Drawing.Size(108, 30);
@@ -154,7 +158,7 @@
             this.NewButton.Text = "Nuevo Servicio";
             this.NewButton.UseVisualStyleBackColor = true;
             // 
-            // ServiceCode
+            // SMCode
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -162,7 +166,8 @@
             this.ClientSize = new System.Drawing.Size(545, 266);
             this.Controls.Add(this.tableLayoutPanel1);
             this.MaximizeBox = false;
-            this.Name = "ServiceCode";
+            this.Name = "SMCode";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ServiceCode";
             this.Load += new System.EventHandler(this.ServiceCode_Load);
             this.tableLayoutPanel1.ResumeLayout(false);

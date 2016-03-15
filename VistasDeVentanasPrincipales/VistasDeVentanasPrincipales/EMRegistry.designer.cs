@@ -31,10 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EMRegistry));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.CITD = new System.Windows.Forms.TextBox();
             this.notice2 = new System.Windows.Forms.TextBox();
             this.notice1 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.checkVehicle = new System.Windows.Forms.Button();
             this.checkTD = new System.Windows.Forms.Button();
             this.ModelVehicle = new System.Windows.Forms.TextBox();
@@ -44,9 +43,10 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.TypeCI = new System.Windows.Forms.ComboBox();
-            this.CITD = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -72,6 +72,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.CITD);
             this.panel1.Controls.Add(this.notice2);
             this.panel1.Controls.Add(this.notice1);
             this.panel1.Controls.Add(this.checkVehicle);
@@ -83,13 +84,23 @@
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.TypeCI);
-            this.panel1.Controls.Add(this.CITD);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 45);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(464, 277);
             this.panel1.TabIndex = 0;
+            // 
+            // CITD
+            // 
+            this.CITD.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CITD.Location = new System.Drawing.Point(251, 52);
+            this.CITD.MaxLength = 10;
+            this.CITD.Name = "CITD";
+            this.CITD.ShortcutsEnabled = false;
+            this.CITD.Size = new System.Drawing.Size(108, 24);
+            this.CITD.TabIndex = 16;
+            this.CITD.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CITD_KeyPress);
             // 
             // notice2
             // 
@@ -121,31 +132,10 @@
             this.notice1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.notice1.Visible = false;
             // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(69, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(97, 37);
-            this.button4.TabIndex = 27;
-            this.button4.Text = "Cerrar";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(288, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(97, 37);
-            this.button3.TabIndex = 26;
-            this.button3.Text = "Siguiente";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // checkVehicle
             // 
             this.checkVehicle.BackColor = System.Drawing.SystemColors.Control;
+            this.checkVehicle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkVehicle.ForeColor = System.Drawing.Color.Yellow;
             this.checkVehicle.Image = global::VistasDeVentanasPrincipales.Properties.Resources.Field_Lookup;
             this.checkVehicle.Location = new System.Drawing.Point(359, 157);
@@ -158,6 +148,7 @@
             // checkTD
             // 
             this.checkTD.BackColor = System.Drawing.SystemColors.Control;
+            this.checkTD.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkTD.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.checkTD.Image = global::VistasDeVentanasPrincipales.Properties.Resources.Field_Lookup;
             this.checkTD.Location = new System.Drawing.Point(359, 52);
@@ -237,16 +228,6 @@
             this.TypeCI.Size = new System.Drawing.Size(35, 26);
             this.TypeCI.TabIndex = 17;
             // 
-            // CITD
-            // 
-            this.CITD.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CITD.Location = new System.Drawing.Point(251, 52);
-            this.CITD.MaxLength = 10;
-            this.CITD.Name = "CITD";
-            this.CITD.ShortcutsEnabled = false;
-            this.CITD.Size = new System.Drawing.Size(108, 24);
-            this.CITD.TabIndex = 16;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -267,6 +248,30 @@
             this.panel2.Size = new System.Drawing.Size(464, 63);
             this.panel2.TabIndex = 1;
             // 
+            // button3
+            // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(288, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(97, 37);
+            this.button3.TabIndex = 26;
+            this.button3.Text = "Siguiente";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(69, 12);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(97, 37);
+            this.button4.TabIndex = 27;
+            this.button4.Text = "Cerrar";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -279,7 +284,7 @@
             this.label5.Text = "Registro de Datos";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // EntryVehicleTD
+            // EMRegistry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -289,8 +294,9 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "EntryVehicleTD";
+            this.Name = "EMRegistry";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro de Vehículo";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

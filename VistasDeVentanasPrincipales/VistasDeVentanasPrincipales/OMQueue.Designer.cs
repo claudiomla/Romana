@@ -110,6 +110,7 @@
             // 
             // b
             // 
+            this.b.Cursor = System.Windows.Forms.Cursors.Hand;
             this.b.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.b.Location = new System.Drawing.Point(0, 1);
             this.b.Name = "b";
@@ -198,17 +199,19 @@
             // button1
             // 
             this.button1.AutoSize = true;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(77, 8);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 50);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Cancelar";
+            this.button1.Text = "Cerrar";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
             this.button2.AutoSize = true;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(443, 8);
             this.button2.Name = "button2";
@@ -220,6 +223,7 @@
             // button3
             // 
             this.button3.AutoSize = true;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(801, 8);
             this.button3.Name = "button3";
@@ -228,7 +232,7 @@
             this.button3.Text = "Ingresar Vehículo";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // QueueOut
+            // OMQueue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -236,7 +240,8 @@
             this.ClientSize = new System.Drawing.Size(1030, 613);
             this.Controls.Add(this.tableLayoutPanel1);
             this.MaximizeBox = false;
-            this.Name = "QueueOut";
+            this.Name = "OMQueue";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QueueOut";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);

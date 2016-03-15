@@ -76,6 +76,7 @@
             // 
             // Register
             // 
+            this.Register.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Register.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Register.Location = new System.Drawing.Point(371, 3);
             this.Register.Name = "Register";
@@ -86,12 +87,13 @@
             // 
             // Back
             // 
+            this.Back.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Back.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Back.Location = new System.Drawing.Point(103, 3);
             this.Back.Name = "Back";
             this.Back.Size = new System.Drawing.Size(144, 43);
             this.Back.TabIndex = 3;
-            this.Back.Text = "Regresar";
+            this.Back.Text = "Volver";
             this.Back.UseVisualStyleBackColor = true;
             // 
             // checkBoxMANUAL
@@ -459,6 +461,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.MaximizeBox = false;
             this.Name = "EMWeight";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DisplaydataEweighIN";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

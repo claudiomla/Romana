@@ -193,6 +193,7 @@
             // 
             // b
             // 
+            this.b.Cursor = System.Windows.Forms.Cursors.Hand;
             this.b.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.b.Location = new System.Drawing.Point(0, 1);
             this.b.Name = "b";
@@ -216,6 +217,7 @@
             // button4
             // 
             this.button4.AutoSize = true;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(761, 12);
             this.button4.Name = "button4";
@@ -227,6 +229,7 @@
             // button3
             // 
             this.button3.AutoSize = true;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(550, 12);
             this.button3.Name = "button3";
@@ -238,6 +241,7 @@
             // button2
             // 
             this.button2.AutoSize = true;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(323, 12);
             this.button2.Name = "button2";
@@ -249,6 +253,7 @@
             // button1
             // 
             this.button1.AutoSize = true;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(105, 12);
             this.button1.Name = "button1";
@@ -266,6 +271,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.MaximizeBox = false;
             this.Name = "EMQueue";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Vehículos en Espera";
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

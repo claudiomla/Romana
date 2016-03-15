@@ -74,7 +74,7 @@
             this.DataTickets.Location = new System.Drawing.Point(3, 3);
             this.DataTickets.Name = "DataTickets";
             this.DataTickets.RowHeadersVisible = false;
-            this.DataTickets.Size = new System.Drawing.Size(736, 400);
+            this.DataTickets.Size = new System.Drawing.Size(736, 401);
             this.DataTickets.TabIndex = 0;
             // 
             // Ticket
@@ -107,13 +107,14 @@
             this.panel1.Controls.Add(this.SelectButton);
             this.panel1.Controls.Add(this.CloseButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 409);
+            this.panel1.Location = new System.Drawing.Point(3, 410);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(736, 68);
+            this.panel1.Size = new System.Drawing.Size(736, 67);
             this.panel1.TabIndex = 1;
             // 
             // SelectButton
             // 
+            this.SelectButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SelectButton.Location = new System.Drawing.Point(416, 8);
             this.SelectButton.Name = "SelectButton";
             this.SelectButton.Size = new System.Drawing.Size(140, 39);
@@ -123,6 +124,7 @@
             // 
             // CloseButton
             // 
+            this.CloseButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CloseButton.Location = new System.Drawing.Point(169, 8);
             this.CloseButton.Name = "CloseButton";
             this.CloseButton.Size = new System.Drawing.Size(140, 39);
@@ -131,7 +133,7 @@
             this.CloseButton.UseVisualStyleBackColor = true;
             this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
             // 
-            // PopupSearchSerTicket
+            // PopupTicket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -139,7 +141,8 @@
             this.ClientSize = new System.Drawing.Size(742, 480);
             this.Controls.Add(this.tableLayoutPanel1);
             this.MinimizeBox = false;
-            this.Name = "PopupSearchSerTicket";
+            this.Name = "PopupTicket";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PopupSearchSerTicket";
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DataTickets)).EndInit();

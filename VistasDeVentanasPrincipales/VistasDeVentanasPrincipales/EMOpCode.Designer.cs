@@ -148,21 +148,23 @@
             // 
             // BackButton
             // 
+            this.BackButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BackButton.Location = new System.Drawing.Point(138, 16);
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(118, 34);
             this.BackButton.TabIndex = 2;
-            this.BackButton.Text = "Regresar";
+            this.BackButton.Text = "Volver";
             this.BackButton.UseVisualStyleBackColor = true;
             this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
             // 
             // NextButton
             // 
+            this.NextButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NextButton.Location = new System.Drawing.Point(351, 16);
             this.NextButton.Name = "NextButton";
             this.NextButton.Size = new System.Drawing.Size(118, 34);
             this.NextButton.TabIndex = 1;
-            this.NextButton.Text = "Continuar";
+            this.NextButton.Text = "Siguiente";
             this.NextButton.UseVisualStyleBackColor = true;
             // 
             // panel2
@@ -180,6 +182,7 @@
             // 
             // DetailsButton
             // 
+            this.DetailsButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DetailsButton.Location = new System.Drawing.Point(442, 67);
             this.DetailsButton.Name = "DetailsButton";
             this.DetailsButton.Size = new System.Drawing.Size(65, 23);
@@ -226,20 +229,23 @@
             // RelevantDigits
             // 
             this.RelevantDigits.Location = new System.Drawing.Point(246, 69);
+            this.RelevantDigits.MaxLength = 10;
             this.RelevantDigits.Name = "RelevantDigits";
             this.RelevantDigits.ShortcutsEnabled = false;
             this.RelevantDigits.Size = new System.Drawing.Size(190, 20);
             this.RelevantDigits.TabIndex = 0;
+            this.RelevantDigits.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.RelevantDigits.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             this.RelevantDigits.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
-            // RequestOpCode
+            // EMOpCode
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(599, 434);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "RequestOpCode";
+            this.Name = "EMOpCode";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RequestOpCode";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
