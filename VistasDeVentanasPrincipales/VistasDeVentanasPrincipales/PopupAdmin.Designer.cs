@@ -47,6 +47,7 @@
             // 
             // CancelButton
             // 
+            this.CancelButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CancelButton.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CancelButton.Location = new System.Drawing.Point(134, 12);
             this.CancelButton.Name = "CancelButton";
@@ -58,12 +59,13 @@
             // 
             // NextButton
             // 
+            this.NextButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NextButton.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NextButton.Location = new System.Drawing.Point(337, 12);
             this.NextButton.Name = "NextButton";
             this.NextButton.Size = new System.Drawing.Size(114, 23);
             this.NextButton.TabIndex = 1;
-            this.NextButton.Text = "Continuar";
+            this.NextButton.Text = "Aceptar";
             this.NextButton.UseVisualStyleBackColor = true;
             // 
             // TextUser
@@ -172,7 +174,8 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.MaximizeBox = false;
             this.Name = "PopupAdmin";
-            this.Text = "PopupActivateManualEdition";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "PopupAdmin";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

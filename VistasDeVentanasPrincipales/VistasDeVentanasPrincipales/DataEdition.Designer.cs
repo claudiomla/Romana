@@ -48,7 +48,7 @@
             this.textBoxcode = new System.Windows.Forms.TextBox();
             this.TypeDocument = new System.Windows.Forms.ComboBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Close = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -117,34 +117,37 @@
             // 
             // Modify1
             // 
+            this.Modify1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Modify1.Location = new System.Drawing.Point(624, 31);
             this.Modify1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Modify1.Name = "Modify1";
             this.Modify1.Size = new System.Drawing.Size(84, 24);
             this.Modify1.TabIndex = 38;
-            this.Modify1.Text = "Modificar";
+            this.Modify1.Text = "Editar";
             this.Modify1.UseVisualStyleBackColor = true;
             this.Modify1.Click += new System.EventHandler(this.Modify1_Click);
             // 
             // Modify3
             // 
+            this.Modify3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Modify3.Location = new System.Drawing.Point(624, 187);
             this.Modify3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Modify3.Name = "Modify3";
             this.Modify3.Size = new System.Drawing.Size(84, 24);
             this.Modify3.TabIndex = 37;
-            this.Modify3.Text = "Modificar";
+            this.Modify3.Text = "Editar";
             this.Modify3.UseVisualStyleBackColor = true;
             this.Modify3.Click += new System.EventHandler(this.Modify3_Click);
             // 
             // Modify2
             // 
+            this.Modify2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Modify2.Location = new System.Drawing.Point(624, 114);
             this.Modify2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Modify2.Name = "Modify2";
             this.Modify2.Size = new System.Drawing.Size(84, 24);
             this.Modify2.TabIndex = 36;
-            this.Modify2.Text = "Modificar";
+            this.Modify2.Text = "Editar";
             this.Modify2.UseVisualStyleBackColor = true;
             this.Modify2.Click += new System.EventHandler(this.Modify2_Click);
             // 
@@ -265,6 +268,7 @@
             // 
             // TypeDocument
             // 
+            this.TypeDocument.Cursor = System.Windows.Forms.Cursors.Hand;
             this.TypeDocument.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.TypeDocument.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TypeDocument.FormattingEnabled = true;
@@ -280,23 +284,24 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.Close);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(3, 328);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(758, 68);
             this.panel3.TabIndex = 2;
             // 
-            // button1
+            // Close
             // 
-            this.button1.Location = new System.Drawing.Point(320, 14);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 35);
-            this.button1.TabIndex = 31;
-            this.button1.Text = "Cerrar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Close.Location = new System.Drawing.Point(320, 14);
+            this.Close.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.Close.Name = "Close";
+            this.Close.Size = new System.Drawing.Size(87, 35);
+            this.Close.TabIndex = 31;
+            this.Close.Text = "Cerrar";
+            this.Close.UseVisualStyleBackColor = true;
+            this.Close.Click += new System.EventHandler(this.button1_Click);
             // 
             // DataEdition
             // 
@@ -308,6 +313,7 @@
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.MaximizeBox = false;
             this.Name = "DataEdition";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DataEdition";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -332,7 +338,7 @@
         private System.Windows.Forms.TextBox textBoxplate;
         private System.Windows.Forms.TextBox textBoxName;
         private System.Windows.Forms.TextBox textBoxcard;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Close;
         private System.Windows.Forms.Label labelmodel;
         private System.Windows.Forms.Label labelplate;
         private System.Windows.Forms.Label labelName;
