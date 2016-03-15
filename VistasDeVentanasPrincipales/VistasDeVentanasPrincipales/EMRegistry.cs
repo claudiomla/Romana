@@ -61,7 +61,7 @@ namespace VistasDeVentanasPrincipales
 
 
             }else{
-                MessageBox.Show("\tVerifique: \n\n Ingrese la Placa del Vehiculo.");
+                MessageBox.Show("Ingrese la Placa del Vehiculo.","Verifique:");
             }
 
         }

@@ -19,10 +19,12 @@ namespace VistasDeVentanasPrincipales
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-                PDF.LoadFile(@"‪C:\Users\GM66\Desktop\04_verbos.pdf");
+
+            PDF.LoadFile("C:\\Users\\GM66\\Desktop\\04_verbos.pdf");
           
  
         }
+
+       
     }
 }

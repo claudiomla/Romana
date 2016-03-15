@@ -14,7 +14,6 @@ C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDe
 C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\RomanaMERSAN.csproj.ResolveComReference.cache
 C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.EMWeight.resources
 C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.EMRegistry.resources
-C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.ReporteTicket.resources
 C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.SMNewService.resources
 C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.SMOldService.resources
 C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.OMWeight.resources
@@ -27,3 +26,4 @@ C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDe
 C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.OMWeight.es-VE.resources
 C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\bin\Debug\Interop.AcroPDFLib.dll
 C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\GM66\Documents\GitHub\RomanaMERSAN\VistasDeVentanasPrincipales\VistasDeVentanasPrincipales\obj\Debug\VistasDeVentanasPrincipales.TicketReport.resources
