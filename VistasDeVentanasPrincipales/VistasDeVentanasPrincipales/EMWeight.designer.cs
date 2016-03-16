@@ -77,10 +77,10 @@
             // Register
             // 
             this.Register.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Register.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Register.Location = new System.Drawing.Point(371, 3);
+            this.Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Register.Location = new System.Drawing.Point(399, 3);
             this.Register.Name = "Register";
-            this.Register.Size = new System.Drawing.Size(144, 43);
+            this.Register.Size = new System.Drawing.Size(100, 35);
             this.Register.TabIndex = 2;
             this.Register.Text = "Registrar";
             this.Register.UseVisualStyleBackColor = true;
@@ -88,10 +88,10 @@
             // Back
             // 
             this.Back.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Back.Location = new System.Drawing.Point(103, 3);
+            this.Back.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Back.Location = new System.Drawing.Point(150, 3);
             this.Back.Name = "Back";
-            this.Back.Size = new System.Drawing.Size(144, 43);
+            this.Back.Size = new System.Drawing.Size(100, 35);
             this.Back.TabIndex = 3;
             this.Back.Text = "Volver";
             this.Back.UseVisualStyleBackColor = true;
@@ -99,10 +99,10 @@
             // checkBoxMANUAL
             // 
             this.checkBoxMANUAL.AutoSize = true;
-            this.checkBoxMANUAL.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxMANUAL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBoxMANUAL.Location = new System.Drawing.Point(38, 86);
             this.checkBoxMANUAL.Name = "checkBoxMANUAL";
-            this.checkBoxMANUAL.Size = new System.Drawing.Size(121, 22);
+            this.checkBoxMANUAL.Size = new System.Drawing.Size(124, 24);
             this.checkBoxMANUAL.TabIndex = 29;
             this.checkBoxMANUAL.Text = "Modo Manual";
             this.checkBoxMANUAL.UseVisualStyleBackColor = true;
@@ -111,100 +111,100 @@
             // textticket
             // 
             this.textticket.AutoSize = true;
-            this.textticket.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textticket.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textticket.Location = new System.Drawing.Point(35, 42);
             this.textticket.Name = "textticket";
-            this.textticket.Size = new System.Drawing.Size(69, 18);
+            this.textticket.Size = new System.Drawing.Size(72, 20);
             this.textticket.TabIndex = 4;
             this.textticket.Text = "Nº Ticket";
             // 
             // textDocument
             // 
             this.textDocument.AutoSize = true;
-            this.textDocument.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textDocument.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textDocument.Location = new System.Drawing.Point(35, 76);
             this.textDocument.Name = "textDocument";
-            this.textDocument.Size = new System.Drawing.Size(108, 18);
+            this.textDocument.Size = new System.Drawing.Size(113, 20);
             this.textDocument.TabIndex = 5;
             this.textDocument.Text = "Nº Documento";
             // 
             // textRif
             // 
             this.textRif.AutoSize = true;
-            this.textRif.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textRif.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textRif.Location = new System.Drawing.Point(35, 110);
             this.textRif.Name = "textRif";
-            this.textRif.Size = new System.Drawing.Size(27, 18);
+            this.textRif.Size = new System.Drawing.Size(29, 20);
             this.textRif.TabIndex = 6;
             this.textRif.Text = "Rif";
             // 
             // textcompany
             // 
             this.textcompany.AutoSize = true;
-            this.textcompany.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textcompany.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textcompany.Location = new System.Drawing.Point(35, 151);
             this.textcompany.Name = "textcompany";
-            this.textcompany.Size = new System.Drawing.Size(57, 18);
+            this.textcompany.Size = new System.Drawing.Size(58, 20);
             this.textcompany.TabIndex = 7;
             this.textcompany.Text = "Cliente";
             // 
             // textdriver
             // 
             this.textdriver.AutoSize = true;
-            this.textdriver.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textdriver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textdriver.Location = new System.Drawing.Point(35, 190);
             this.textdriver.Name = "textdriver";
-            this.textdriver.Size = new System.Drawing.Size(80, 18);
+            this.textdriver.Size = new System.Drawing.Size(83, 20);
             this.textdriver.TabIndex = 8;
             this.textdriver.Text = "Conductor";
             // 
             // textIdentity_card
             // 
             this.textIdentity_card.AutoSize = true;
-            this.textIdentity_card.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textIdentity_card.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textIdentity_card.Location = new System.Drawing.Point(360, 41);
             this.textIdentity_card.Name = "textIdentity_card";
-            this.textIdentity_card.Size = new System.Drawing.Size(58, 18);
+            this.textIdentity_card.Size = new System.Drawing.Size(59, 20);
             this.textIdentity_card.TabIndex = 9;
             this.textIdentity_card.Text = "Cedula";
             // 
             // textplate
             // 
             this.textplate.AutoSize = true;
-            this.textplate.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textplate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textplate.Location = new System.Drawing.Point(360, 78);
             this.textplate.Name = "textplate";
-            this.textplate.Size = new System.Drawing.Size(48, 18);
+            this.textplate.Size = new System.Drawing.Size(48, 20);
             this.textplate.TabIndex = 10;
             this.textplate.Text = "Placa";
             // 
             // textplatform
             // 
             this.textplatform.AutoSize = true;
-            this.textplatform.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textplatform.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textplatform.Location = new System.Drawing.Point(360, 116);
             this.textplatform.Name = "textplatform";
-            this.textplatform.Size = new System.Drawing.Size(53, 18);
+            this.textplatform.Size = new System.Drawing.Size(56, 20);
             this.textplatform.TabIndex = 11;
             this.textplatform.Text = "Andén";
             // 
             // textdate
             // 
             this.textdate.AutoSize = true;
-            this.textdate.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textdate.Location = new System.Drawing.Point(360, 157);
             this.textdate.Name = "textdate";
-            this.textdate.Size = new System.Drawing.Size(52, 18);
+            this.textdate.Size = new System.Drawing.Size(54, 20);
             this.textdate.TabIndex = 12;
             this.textdate.Text = "Fecha";
             // 
             // texthour
             // 
             this.texthour.AutoSize = true;
-            this.texthour.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.texthour.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.texthour.Location = new System.Drawing.Point(360, 194);
             this.texthour.Name = "texthour";
-            this.texthour.Size = new System.Drawing.Size(42, 18);
+            this.texthour.Size = new System.Drawing.Size(44, 20);
             this.texthour.TabIndex = 13;
             this.texthour.Text = "Hora";
             // 
@@ -292,7 +292,7 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.panel2, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.panel3, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.panel4, 0, 2);
@@ -301,11 +301,10 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 46F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 253F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 120F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.92913F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(655, 482);
             this.tableLayoutPanel1.TabIndex = 30;
             // 
@@ -332,7 +331,7 @@
             this.panel2.Controls.Add(this.NumRif);
             this.panel2.Controls.Add(this.NumDocument);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(3, 49);
+            this.panel2.Location = new System.Drawing.Point(3, 53);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(649, 247);
             this.panel2.TabIndex = 1;
@@ -342,9 +341,9 @@
             this.panel3.Controls.Add(this.Register);
             this.panel3.Controls.Add(this.Back);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(3, 422);
+            this.panel3.Location = new System.Drawing.Point(3, 426);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(649, 57);
+            this.panel3.Size = new System.Drawing.Size(649, 53);
             this.panel3.TabIndex = 2;
             // 
             // panel4
@@ -353,7 +352,7 @@
             this.panel4.Controls.Add(this.checkBoxMANUAL);
             this.panel4.Controls.Add(this.panel5);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(3, 302);
+            this.panel4.Location = new System.Drawing.Point(3, 306);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(649, 114);
             this.panel4.TabIndex = 3;
@@ -447,10 +446,10 @@
             this.dealings.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dealings.Location = new System.Drawing.Point(3, 0);
             this.dealings.Name = "dealings";
-            this.dealings.Size = new System.Drawing.Size(649, 46);
+            this.dealings.Size = new System.Drawing.Size(649, 50);
             this.dealings.TabIndex = 4;
             this.dealings.Text = "Transacciones";
-            this.dealings.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dealings.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // EMWeight
             // 
