@@ -52,7 +52,7 @@ namespace VistasDeVentanasPrincipales
             else
             {
 
-                MessageBox.Show("\t      Verifique: \n\n Ningun campo CI,Nombre,Rif,Cliente,Vehiculo y Placa esten vacios.");
+                MessageBox.Show("Ningun campo puede estar vacío.","Verifique:");
 
             }
         }

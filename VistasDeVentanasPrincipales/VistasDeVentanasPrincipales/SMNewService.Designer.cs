@@ -79,17 +79,17 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 92F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(535, 518);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(566, 518);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // Service
             // 
             this.Service.AutoSize = true;
             this.Service.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Service.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Service.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Service.Location = new System.Drawing.Point(3, 0);
             this.Service.Name = "Service";
-            this.Service.Size = new System.Drawing.Size(529, 55);
+            this.Service.Size = new System.Drawing.Size(560, 55);
             this.Service.TabIndex = 1;
             this.Service.Text = "Servicio de Entrada";
             this.Service.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -115,147 +115,155 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 58);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(529, 304);
+            this.panel1.Size = new System.Drawing.Size(560, 304);
             this.panel1.TabIndex = 2;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(106, 32);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(220, 25);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(139, 20);
+            this.textBox1.Size = new System.Drawing.Size(218, 23);
             this.textBox1.TabIndex = 34;
             // 
             // Ticket
             // 
             this.Ticket.AutoSize = true;
-            this.Ticket.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ticket.Location = new System.Drawing.Point(37, 33);
+            this.Ticket.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ticket.Location = new System.Drawing.Point(129, 26);
             this.Ticket.Name = "Ticket";
-            this.Ticket.Size = new System.Drawing.Size(61, 16);
+            this.Ticket.Size = new System.Drawing.Size(84, 22);
             this.Ticket.TabIndex = 33;
             this.Ticket.Text = "N° Ticket";
             // 
             // textDriver
             // 
-            this.textDriver.Location = new System.Drawing.Point(344, 113);
+            this.textDriver.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textDriver.Location = new System.Drawing.Point(380, 113);
             this.textDriver.Name = "textDriver";
-            this.textDriver.Size = new System.Drawing.Size(140, 20);
+            this.textDriver.Size = new System.Drawing.Size(140, 23);
             this.textDriver.TabIndex = 32;
             // 
             // Driver
             // 
             this.Driver.AutoSize = true;
-            this.Driver.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Driver.Location = new System.Drawing.Point(271, 114);
+            this.Driver.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Driver.Location = new System.Drawing.Point(280, 114);
             this.Driver.Name = "Driver";
-            this.Driver.Size = new System.Drawing.Size(67, 16);
+            this.Driver.Size = new System.Drawing.Size(93, 22);
             this.Driver.TabIndex = 31;
             this.Driver.Text = "Conductor";
             // 
             // textObservation
             // 
+            this.textObservation.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textObservation.Location = new System.Drawing.Point(41, 204);
             this.textObservation.Multiline = true;
             this.textObservation.Name = "textObservation";
             this.textObservation.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textObservation.Size = new System.Drawing.Size(443, 90);
+            this.textObservation.Size = new System.Drawing.Size(478, 90);
             this.textObservation.TabIndex = 26;
             // 
             // textVehicle
             // 
-            this.textVehicle.Location = new System.Drawing.Point(344, 147);
+            this.textVehicle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textVehicle.Location = new System.Drawing.Point(380, 147);
             this.textVehicle.Name = "textVehicle";
-            this.textVehicle.Size = new System.Drawing.Size(140, 20);
+            this.textVehicle.Size = new System.Drawing.Size(140, 23);
             this.textVehicle.TabIndex = 24;
             // 
             // textPlate
             // 
-            this.textPlate.Location = new System.Drawing.Point(107, 147);
+            this.textPlate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textPlate.Location = new System.Drawing.Point(129, 147);
             this.textPlate.Name = "textPlate";
-            this.textPlate.Size = new System.Drawing.Size(139, 20);
+            this.textPlate.Size = new System.Drawing.Size(139, 23);
             this.textPlate.TabIndex = 23;
             // 
             // textClient
             // 
-            this.textClient.Location = new System.Drawing.Point(344, 74);
+            this.textClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textClient.Location = new System.Drawing.Point(380, 74);
             this.textClient.Name = "textClient";
-            this.textClient.Size = new System.Drawing.Size(139, 20);
+            this.textClient.Size = new System.Drawing.Size(139, 23);
             this.textClient.TabIndex = 22;
             // 
             // textCard
             // 
-            this.textCard.Location = new System.Drawing.Point(106, 112);
+            this.textCard.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textCard.Location = new System.Drawing.Point(128, 112);
             this.textCard.Name = "textCard";
-            this.textCard.Size = new System.Drawing.Size(140, 20);
+            this.textCard.Size = new System.Drawing.Size(140, 23);
             this.textCard.TabIndex = 20;
             this.textCard.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textCard_KeyDown);
             this.textCard.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textCard_KeyPress);
             // 
             // textRif
             // 
-            this.textRif.Location = new System.Drawing.Point(107, 75);
+            this.textRif.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textRif.Location = new System.Drawing.Point(129, 75);
             this.textRif.Name = "textRif";
-            this.textRif.Size = new System.Drawing.Size(139, 20);
+            this.textRif.Size = new System.Drawing.Size(139, 23);
             this.textRif.TabIndex = 12;
             // 
             // Observation
             // 
             this.Observation.AutoSize = true;
-            this.Observation.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Observation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Observation.Location = new System.Drawing.Point(38, 185);
             this.Observation.Name = "Observation";
-            this.Observation.Size = new System.Drawing.Size(97, 16);
+            this.Observation.Size = new System.Drawing.Size(103, 16);
             this.Observation.TabIndex = 10;
             this.Observation.Text = "Observaciones:";
             // 
             // Vehicle
             // 
             this.Vehicle.AutoSize = true;
-            this.Vehicle.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Vehicle.Location = new System.Drawing.Point(271, 148);
+            this.Vehicle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Vehicle.Location = new System.Drawing.Point(280, 148);
             this.Vehicle.Name = "Vehicle";
-            this.Vehicle.Size = new System.Drawing.Size(57, 16);
+            this.Vehicle.Size = new System.Drawing.Size(79, 22);
             this.Vehicle.TabIndex = 7;
             this.Vehicle.Text = "Vehiculo";
             // 
             // Plate
             // 
             this.Plate.AutoSize = true;
-            this.Plate.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Plate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Plate.Location = new System.Drawing.Point(38, 148);
             this.Plate.Name = "Plate";
-            this.Plate.Size = new System.Drawing.Size(41, 16);
+            this.Plate.Size = new System.Drawing.Size(55, 22);
             this.Plate.TabIndex = 6;
             this.Plate.Text = "Placa";
             // 
             // Card
             // 
             this.Card.AutoSize = true;
-            this.Card.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Card.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Card.Location = new System.Drawing.Point(38, 112);
             this.Card.Name = "Card";
-            this.Card.Size = new System.Drawing.Size(24, 16);
+            this.Card.Size = new System.Drawing.Size(32, 22);
             this.Card.TabIndex = 4;
             this.Card.Text = "C.I";
             // 
             // Client
             // 
             this.Client.AutoSize = true;
-            this.Client.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Client.Location = new System.Drawing.Point(271, 75);
+            this.Client.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Client.Location = new System.Drawing.Point(280, 75);
             this.Client.Name = "Client";
-            this.Client.Size = new System.Drawing.Size(48, 16);
+            this.Client.Size = new System.Drawing.Size(66, 22);
             this.Client.TabIndex = 3;
             this.Client.Text = "Cliente";
             // 
             // Rif
             // 
             this.Rif.AutoSize = true;
-            this.Rif.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Rif.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Rif.Location = new System.Drawing.Point(38, 76);
             this.Rif.Name = "Rif";
-            this.Rif.Size = new System.Drawing.Size(23, 16);
+            this.Rif.Size = new System.Drawing.Size(32, 22);
             this.Rif.TabIndex = 2;
             this.Rif.Text = "Rif";
             // 
@@ -265,7 +273,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 368);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(529, 86);
+            this.panel2.Size = new System.Drawing.Size(560, 86);
             this.panel2.TabIndex = 5;
             // 
             // panel5
@@ -274,7 +282,7 @@
             this.panel5.Controls.Add(this.textBox7);
             this.panel5.Controls.Add(this.label14);
             this.panel5.Controls.Add(this.label13);
-            this.panel5.Location = new System.Drawing.Point(94, 6);
+            this.panel5.Location = new System.Drawing.Point(118, 3);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(332, 77);
             this.panel5.TabIndex = 2;
@@ -315,16 +323,16 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(3, 460);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(529, 55);
+            this.panel3.Size = new System.Drawing.Size(560, 55);
             this.panel3.TabIndex = 6;
             // 
             // Back
             // 
             this.Back.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Back.Location = new System.Drawing.Point(93, 7);
+            this.Back.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Back.Location = new System.Drawing.Point(120, 7);
             this.Back.Name = "Back";
-            this.Back.Size = new System.Drawing.Size(117, 37);
+            this.Back.Size = new System.Drawing.Size(100, 37);
             this.Back.TabIndex = 0;
             this.Back.Text = "Volver";
             this.Back.UseVisualStyleBackColor = true;
@@ -332,10 +340,10 @@
             // Register
             // 
             this.Register.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Register.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Register.Location = new System.Drawing.Point(309, 7);
+            this.Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Register.Location = new System.Drawing.Point(340, 7);
             this.Register.Name = "Register";
-            this.Register.Size = new System.Drawing.Size(117, 37);
+            this.Register.Size = new System.Drawing.Size(100, 37);
             this.Register.TabIndex = 0;
             this.Register.Text = "Registrar";
             this.Register.UseVisualStyleBackColor = true;
@@ -346,7 +354,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(535, 518);
+            this.ClientSize = new System.Drawing.Size(566, 518);
             this.Controls.Add(this.tableLayoutPanel1);
             this.MaximizeBox = false;
             this.Name = "SMNewService";
