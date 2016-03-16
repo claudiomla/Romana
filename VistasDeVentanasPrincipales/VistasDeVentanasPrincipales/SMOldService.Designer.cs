@@ -205,9 +205,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(85, 45);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 18);
+            this.label2.Size = new System.Drawing.Size(26, 18);
             this.label2.TabIndex = 4;
-            this.label2.Text = "RIF";
+            this.label2.Text = "Rif";
             // 
             // textBox4
             // 
@@ -414,7 +414,7 @@
             // 
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(499, 6);
+            this.button5.Location = new System.Drawing.Point(510, 6);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(96, 37);
             this.button5.TabIndex = 1;
@@ -425,7 +425,7 @@
             // 
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(169, 6);
+            this.button4.Location = new System.Drawing.Point(205, 6);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(96, 37);
             this.button4.TabIndex = 0;
