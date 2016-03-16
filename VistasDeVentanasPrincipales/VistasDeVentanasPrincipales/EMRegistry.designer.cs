@@ -64,17 +64,14 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-<<<<<<< HEAD
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(470, 394);
-=======
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 283F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(469, 394);
->>>>>>> origin/master
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -95,11 +92,8 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 53);
             this.panel1.Name = "panel1";
-<<<<<<< HEAD
             this.panel1.Size = new System.Drawing.Size(464, 288);
-=======
             this.panel1.Size = new System.Drawing.Size(463, 277);
->>>>>>> origin/master
             this.panel1.TabIndex = 0;
             // 
             // CITD
@@ -256,11 +250,8 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 347);
             this.panel2.Name = "panel2";
-<<<<<<< HEAD
             this.panel2.Size = new System.Drawing.Size(464, 44);
-=======
             this.panel2.Size = new System.Drawing.Size(463, 63);
->>>>>>> origin/master
             this.panel2.TabIndex = 1;
             // 
             // button3
@@ -294,11 +285,8 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(3, 0);
             this.label5.Name = "label5";
-<<<<<<< HEAD
             this.label5.Size = new System.Drawing.Size(464, 50);
-=======
             this.label5.Size = new System.Drawing.Size(463, 42);
->>>>>>> origin/master
             this.label5.TabIndex = 2;
             this.label5.Text = "Registro de Datos";
             this.label5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
