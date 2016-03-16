@@ -58,7 +58,7 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.dataGridView1, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 2);
@@ -66,10 +66,9 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.99304F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 87.00696F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 65F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(972, 635);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -91,11 +90,11 @@
             this.NameDriver,
             this.Plate});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 77);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 53);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dataGridView1.Size = new System.Drawing.Size(966, 489);
+            this.dataGridView1.Size = new System.Drawing.Size(966, 529);
             this.dataGridView1.TabIndex = 1;
             // 
             // Ticket
@@ -164,7 +163,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(966, 68);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(966, 44);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // label1
@@ -174,17 +173,17 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(845, 68);
+            this.label1.Size = new System.Drawing.Size(845, 44);
             this.label1.TabIndex = 0;
             this.label1.Text = "Vehiculos en Espera de Entrada";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // groupBox2
             // 
             this.groupBox2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.groupBox2.Controls.Add(this.b);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox2.Location = new System.Drawing.Point(854, 40);
+            this.groupBox2.Location = new System.Drawing.Point(854, 16);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(0);
             this.groupBox2.Size = new System.Drawing.Size(109, 25);
@@ -209,19 +208,21 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 572);
+            this.panel1.Location = new System.Drawing.Point(3, 588);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(966, 60);
+            this.panel1.Size = new System.Drawing.Size(966, 44);
             this.panel1.TabIndex = 3;
             // 
             // button4
             // 
             this.button4.AutoSize = true;
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(761, 12);
+            this.button4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(753, 1);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(101, 37);
+            this.button4.Size = new System.Drawing.Size(100, 35);
             this.button4.TabIndex = 7;
             this.button4.Text = "Ingresar";
             this.button4.UseVisualStyleBackColor = true;
@@ -230,10 +231,12 @@
             // 
             this.button3.AutoSize = true;
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(550, 12);
+            this.button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(540, 1);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(101, 37);
+            this.button3.Size = new System.Drawing.Size(100, 35);
             this.button3.TabIndex = 6;
             this.button3.Text = "Agregar";
             this.button3.UseVisualStyleBackColor = true;
@@ -242,10 +245,12 @@
             // 
             this.button2.AutoSize = true;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(323, 12);
+            this.button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(326, 0);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(101, 37);
+            this.button2.Size = new System.Drawing.Size(100, 37);
             this.button2.TabIndex = 5;
             this.button2.Text = "Editar";
             this.button2.UseVisualStyleBackColor = true;
@@ -254,13 +259,16 @@
             // 
             this.button1.AutoSize = true;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(105, 12);
+            this.button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(113, 1);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 37);
+            this.button1.Size = new System.Drawing.Size(100, 35);
             this.button1.TabIndex = 4;
             this.button1.Text = "Cerrar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // EMQueue
             // 

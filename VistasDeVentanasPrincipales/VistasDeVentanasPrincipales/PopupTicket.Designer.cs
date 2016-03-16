@@ -46,15 +46,15 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.DataTickets, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 84.79166F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.20833F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(742, 480);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -74,7 +74,7 @@
             this.DataTickets.Location = new System.Drawing.Point(3, 3);
             this.DataTickets.Name = "DataTickets";
             this.DataTickets.RowHeadersVisible = false;
-            this.DataTickets.Size = new System.Drawing.Size(736, 401);
+            this.DataTickets.Size = new System.Drawing.Size(736, 424);
             this.DataTickets.TabIndex = 0;
             // 
             // Ticket
@@ -107,17 +107,18 @@
             this.panel1.Controls.Add(this.SelectButton);
             this.panel1.Controls.Add(this.CloseButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 410);
+            this.panel1.Location = new System.Drawing.Point(3, 433);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(736, 67);
+            this.panel1.Size = new System.Drawing.Size(736, 44);
             this.panel1.TabIndex = 1;
             // 
             // SelectButton
             // 
             this.SelectButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.SelectButton.Location = new System.Drawing.Point(416, 8);
+            this.SelectButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SelectButton.Location = new System.Drawing.Point(457, 3);
             this.SelectButton.Name = "SelectButton";
-            this.SelectButton.Size = new System.Drawing.Size(140, 39);
+            this.SelectButton.Size = new System.Drawing.Size(100, 35);
             this.SelectButton.TabIndex = 1;
             this.SelectButton.Text = "Seleccionar";
             this.SelectButton.UseVisualStyleBackColor = true;
@@ -125,9 +126,10 @@
             // CloseButton
             // 
             this.CloseButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.CloseButton.Location = new System.Drawing.Point(169, 8);
+            this.CloseButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CloseButton.Location = new System.Drawing.Point(179, 3);
             this.CloseButton.Name = "CloseButton";
-            this.CloseButton.Size = new System.Drawing.Size(140, 39);
+            this.CloseButton.Size = new System.Drawing.Size(100, 35);
             this.CloseButton.TabIndex = 0;
             this.CloseButton.Text = "Cerrar";
             this.CloseButton.UseVisualStyleBackColor = true;
@@ -140,7 +142,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(742, 480);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.MinimizeBox = false;
+            this.MaximizeBox = false;
             this.Name = "PopupTicket";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PopupSearchSerTicket";

@@ -46,7 +46,7 @@ namespace VistasDeVentanasPrincipales
             if (string.IsNullOrWhiteSpace(RelevantDigits.Text) || (DocType.SelectedItem == null))
             {
                 // Indicarle al usuario que no lleno algunos de los campos de datos de codigo
-                MessageBox.Show("Inserte el resto de los datos", "Error en codigo"); //mostrar ventana de error
+                MessageBox.Show("El campo no puede estar Vacio", "Aviso:"); //mostrar ventana de error
             }
         }
 

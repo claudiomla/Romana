@@ -55,7 +55,7 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.dataGridView1, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 2);
@@ -63,9 +63,9 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 480F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1030, 613);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -81,27 +81,27 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1024, 56);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1024, 44);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(896, 56);
+            this.label1.Size = new System.Drawing.Size(896, 44);
             this.label1.TabIndex = 0;
             this.label1.Text = "Vehiculos en Espera de Salida";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // groupBox2
             // 
             this.groupBox2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.groupBox2.Controls.Add(this.b);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox2.Location = new System.Drawing.Point(905, 28);
+            this.groupBox2.Location = new System.Drawing.Point(905, 16);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(0);
             this.groupBox2.Size = new System.Drawing.Size(116, 25);
@@ -135,11 +135,11 @@
             this.NameDriver,
             this.Plate});
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 65);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 53);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 20;
-            this.dataGridView1.Size = new System.Drawing.Size(1024, 474);
+            this.dataGridView1.Size = new System.Drawing.Size(1024, 507);
             this.dataGridView1.TabIndex = 4;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
@@ -191,9 +191,9 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 545);
+            this.panel1.Location = new System.Drawing.Point(3, 566);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1024, 65);
+            this.panel1.Size = new System.Drawing.Size(1024, 44);
             this.panel1.TabIndex = 5;
             // 
             // button1
@@ -201,9 +201,9 @@
             this.button1.AutoSize = true;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(77, 8);
+            this.button1.Location = new System.Drawing.Point(171, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 50);
+            this.button1.Size = new System.Drawing.Size(100, 35);
             this.button1.TabIndex = 3;
             this.button1.Text = "Cerrar";
             this.button1.UseVisualStyleBackColor = true;
@@ -213,9 +213,9 @@
             this.button2.AutoSize = true;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(443, 8);
+            this.button2.Location = new System.Drawing.Point(452, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(117, 50);
+            this.button2.Size = new System.Drawing.Size(108, 35);
             this.button2.TabIndex = 4;
             this.button2.Text = "Editar Datos";
             this.button2.UseVisualStyleBackColor = true;
@@ -225,9 +225,9 @@
             this.button3.AutoSize = true;
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(801, 8);
+            this.button3.Location = new System.Drawing.Point(733, 3);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(143, 50);
+            this.button3.Size = new System.Drawing.Size(143, 35);
             this.button3.TabIndex = 5;
             this.button3.Text = "Ingresar Vehículo";
             this.button3.UseVisualStyleBackColor = true;

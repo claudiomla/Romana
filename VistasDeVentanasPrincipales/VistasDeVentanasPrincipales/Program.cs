@@ -17,7 +17,7 @@ namespace VistasDeVentanasPrincipales
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new TicketReport());
+            Application.Run(new DataEdition());
             
         }
     }

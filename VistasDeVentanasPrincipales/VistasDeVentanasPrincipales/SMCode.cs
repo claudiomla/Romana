@@ -43,7 +43,7 @@ namespace VistasDeVentanasPrincipales
 
         private void CloseButton_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Close();
         }
 
         private void CheckTicketButton_Click(object sender, EventArgs e)

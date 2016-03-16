@@ -74,8 +74,8 @@ namespace VistasDeVentanasPrincipales
         }
 
         private void Modify1_Click(object sender, EventArgs e)
-        {
-            if ((!(string.IsNullOrEmpty(textBoxcode.Text))) && !(TypeDocument.SelectedItem == null))//verificar que el tipo de documento y el codigo no esten vacios
+        {    // verifica que ningun campo este vacio
+            if ((!(string.IsNullOrEmpty(textBoxcode.Text))) && !(TypeDocument.SelectedItem == null) && (!(string.IsNullOrEmpty(textBoxcard.Text))) && (!(string.IsNullOrEmpty(textBoxName.Text))) && (!(string.IsNullOrEmpty(textBoxplate.Text))) && (!(string.IsNullOrEmpty(textBoxModel.Text))))
             {
                 if (!check)
                 {
@@ -86,53 +86,11 @@ namespace VistasDeVentanasPrincipales
 
             }
             else {
-                MessageBox.Show("Ningun campo ,tipo de documento o Codigo, puede estar vacio.", "Verifique:");
+                MessageBox.Show("Ningun campo ,Correlativo, Codigo,CI,Conductor,Placa y Vehiculo puede estar vacio.", "Verifique:");
             }
         }
 
-        private void Modify2_Click(object sender, EventArgs e)
-        {
-            if ((!(string.IsNullOrEmpty(textBoxcard.Text))) && (!(string.IsNullOrEmpty(textBoxName.Text))))  //verificar que la cedula que la cedula y el nombre no esten vacios
-            {
-
-                if (!check2)
-                {
-
-
-                }
-
-
-
-            }
-            else
-            {
-
-                MessageBox.Show("Ningun campo, CI o Nombre, puede estar vacio.", "Verifique:");
-
-            }
-        }
-
-        private void Modify3_Click(object sender, EventArgs e)
-        {
-            if ((!(string.IsNullOrEmpty(textBoxplate.Text))) && (!(string.IsNullOrEmpty(textBoxModel.Text))))  //verificar que la cedula que la cedula y el nombre no esten vacios
-            {
-
-                if (!check3)
-                {
-
-
-                }
-
-
-
-            }
-            else
-            {
-
-                MessageBox.Show("Ningun campo, Placa o Modelo del Vehiculo, puede estar vacio.","Verifique:");
-
-            }
-        }
+      
 
         private void button1_Click(object sender, EventArgs e)
         {

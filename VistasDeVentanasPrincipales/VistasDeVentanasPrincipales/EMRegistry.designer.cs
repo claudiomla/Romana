@@ -67,7 +67,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 283F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(470, 394);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(469, 394);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -88,7 +88,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 45);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(464, 277);
+            this.panel1.Size = new System.Drawing.Size(463, 277);
             this.panel1.TabIndex = 0;
             // 
             // CITD
@@ -245,7 +245,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 328);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(464, 63);
+            this.panel2.Size = new System.Drawing.Size(463, 63);
             this.panel2.TabIndex = 1;
             // 
             // button3
@@ -279,7 +279,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(3, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(464, 42);
+            this.label5.Size = new System.Drawing.Size(463, 42);
             this.label5.TabIndex = 2;
             this.label5.Text = "Registro de Datos";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -290,7 +290,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(470, 394);
+            this.ClientSize = new System.Drawing.Size(469, 394);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
